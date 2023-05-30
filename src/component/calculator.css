@@ -1,3 +1,7 @@
+.container {
+  margin: 12% 35% 0% 35%;
+}
+
 .calculator {
   display: grid;
   grid-template-areas:
