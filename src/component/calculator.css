@@ -29,19 +29,22 @@
   background-color: #e0e0e0;
 }
 
-.numbers div:nth-child(13) {
-  grid-column: span 2;
-}
-
 .button {
   text-align: center;
   border: 1px solid #bababa;
   padding: 1rem;
 }
 
+.numbers button:nth-child(13) {
+  grid-column: span 2;
+}
+
 .operator {
   grid-area: operator;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+}
+
+.operator .button {
   background-color: #e18132;
 }
