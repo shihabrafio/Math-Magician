@@ -1,10 +1,13 @@
-const Operators = () => (
+import PropTypes from 'prop-types';
+
+const Operators = ({ cal }) => (
   <div className="operator">
-    {['÷', '*', '-', '+', '='].map((op) => (
-      <div className="button" key={op}>
+    {['÷', 'X', '-', '+', '='].map((op) => (
+      <button type="button" onClick={cal} className="button" key={op}>
         {op}
-      </div>
+      </button>
     ))}
   </div>
 );
+Operators.propTypes = { cal: PropTypes.func.isRequired };
 export default Operators;
