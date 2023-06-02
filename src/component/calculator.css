@@ -1,5 +1,5 @@
 .container {
-  margin: 12% 35% 0% 35%;
+  margin: 12% 25% 0% 25%;
 }
 
 .calculator {
@@ -47,4 +47,17 @@
 
 .operator .button {
   background-color: #e18132;
+}
+
+.quotes {
+  list-style: none;
+}
+
+.quotes li {
+  padding-left: 21%;
+  margin-right: 14%;
+}
+
+.error,.loading {
+  margin-left: 45%;
 }
