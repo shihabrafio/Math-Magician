@@ -9,7 +9,7 @@ const FetchData = () => {
     const category = 'life';
     const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
     const key = 'JHzAAtqBCo/fC6qrSuPJZw==A8HADyQ1G1Oe8gTe';
-    const fetch = async () => {
+    const fetcheddata = async () => {
       try {
         setload(true);
         const response = await fetch(url, {
@@ -30,7 +30,7 @@ const FetchData = () => {
       }
     };
 
-    fetch();
+    fetcheddata();
   }, []);
 
   if (error) return <div className="error">Something went wrong!</div>;
