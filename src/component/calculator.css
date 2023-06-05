@@ -1,5 +1,5 @@
 .container {
-  margin: 12% 25% 0% 25%;
+  margin: 12% 35% 0% 35%;
 }
 
 .calculator {
@@ -54,11 +54,22 @@
 }
 
 .quotes li {
-  padding-left: 21%;
-  margin-right: 14%;
+  border: 1px solid;
+  background: linear-gradient(145deg,#71aca7,#b9c8d4);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #b7d7d8,-5px -5px 15px #92ac93;
+  font-weight: 550;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 50%;
+  color: white;
 }
 
 .error,
 .loading {
-  margin-left: 45%;
+  margin-left: 0%;
+  margin-top: 20%;
 }
