@@ -21,9 +21,10 @@ const Calculator = () => {
 
   return (
     <div className="container">
+      <h3>Let&apos;s do some math!</h3>
       <article className="calculator">
         <div className="zero">
-          { next || operation || total || 0 }
+          {next || operation || total || 0}
           {' '}
         </div>
         <Operators cal={Click} />
