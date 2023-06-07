@@ -43,6 +43,7 @@ const FetchData = () => {
         <li key={1}>
           {item.quote}
           <br />
+          <br />
           <b><i>{item.author}</i></b>
         </li>
       ))}
