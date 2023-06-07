@@ -1,46 +1,28 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  <h1><b>Welcome to my project 😃</b></h1>
-</div>
-<div align="center">
-  <br/>
-<h1 align="center">Math Magicians</h1>
-</div>
-
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magicians\] ](#-math-magicians-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 Math-Magicians <a name="about-project"></a>
 
-**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-
-- Make simple calculations.
-- Read a random math-related quote.
-
-By building this application, I improve my skills in using React.
+**Math-Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,79 +31,80 @@ By building this application, I improve my skills in using React.
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://react.dev">React.js</a></li>
-    <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML5</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/specs.en.html">CSS</a></li>
-    <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">JavaScript</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux and Redux Toolkit</a></li>
+    <li><a href="https://fonts.google.com/icons">Google Icons</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-
-- **Easy to the eyes and cultivating at the same time**
-- **Dynamic creation of content** 
+- *Single Page App.**
+- **Basic Calculations**
+- **Pixel Perfect Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Experince a live demo](https://math-magician-eo3z.onrender.com/).
+
 ## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps:
-
-- Clone this repo as described in the setup section. 
-- Make modifications as preferred
-
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: To clone or fork and run it in a browser
+In order to run this project you need:
 
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/shihabrafio/Math-Magician.git
+```
+  git clone https://github.com/AdnanOlarmmi/Math-Magicains.git
 ```
 
-using Ubuntu:
+- Navigate to the location of the folder in your machine:
 
-```sh
-  cd my-desired-folder
-  git clone https://github.com/shihabrafio/Math-Magician.git
-```
-
-For more information on how to clone or fork a repository:
-- <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">How to clone a repo</a>
-- <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">How to fork a repo</a>
+you@your-Pc-name:~$ cd Math-Magicians
 
 ### Install
 
-- Run ` npm install `
+To install all dependencies, run:
+
+```
+  npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+After Cloning this repo to your local machine.
+To get it running on your default browser and local host, run:
 
-- Run `npm start`
+```
+  npm start
+```
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run:
 
-- to test validation errors `npx hint .`
+```
+  npm test
+```
 
-- to test CSS linter errors `npx stylelint "**/*.{css,scss}"`
+### Deployment
 
-- to test JavaScript linter errors  `npx eslint .`
+You can deploy this project using, Netlify:
 
-- to run the jest tests `npx test`
+- I used Render to delpoy the project.
+- For more information, check [Render](https://render.com/) website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
