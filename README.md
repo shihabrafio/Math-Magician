@@ -78,7 +78,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AdnanOlarmmi/Math-Magicains.git
+  git clone https://github.com/shihabrafio/Math-Magician.git
 ```
 
 - Navigate to the location of the folder in your machine:
